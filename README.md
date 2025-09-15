@@ -9,7 +9,7 @@ It demonstrates **Infrastructure as Code (IaC)** fundamentals by creating:
 - A public IP and NIC  
 - A Linux VM  
 
-The goal was to show how cloud resources can be automated, repeatable and secure instead of being created manually in the Azure portal.
+The goal was to show how cloud resources can be **automated**, **repeatable** and secure instead of being created manually in the Azure portal.
 
 ## 🛠️ Tech Stack
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
@@ -49,3 +49,7 @@ This project reflects common tasks for cloud and DevOps engineers:
 3. **Deploy Infrastructure**
    ```bash
    terraform apply
+
+## 📸 Deployment Proof
+Full step-by-step screenshots are available here:  
+[View Deployment Walkthrough](./screenshots/DEPLOYMENT.md)
