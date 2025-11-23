@@ -1,6 +1,6 @@
 # Terraform on Azure: Automated Infrastructure
 
-## 📌 Overview
+## Overview
 This project provisions a basic Azure infrastructure using **Terraform** on **Azure**.  
 It demonstrates **Infrastructure as Code (IaC)** fundamentals by creating:  
 - A resource group  
@@ -11,12 +11,12 @@ It demonstrates **Infrastructure as Code (IaC)** fundamentals by creating:
 
 The goal was to show how cloud resources can be **automated**, **repeatable** and secure instead of being created manually in the Azure portal.
 
-## 🛠️ Tech Stack
+## Tech Stack
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
 ![Azure](https://img.shields.io/badge/Azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white)
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
 
-## 📂 Project Structure
+## Project Structure
 **terraform-azure-infra/**  
 ├─ **main.tf**              - All Terraform resources  
 ├─ **outputs.tf**           - Outputs (VM name, Public IP)  
@@ -24,7 +24,7 @@ The goal was to show how cloud resources can be **automated**, **repeatable** an
 ├─ **.gitignore**           - Terraform state ignored  
 ├─ **screenshots/**         - Deployment proof images  
 
-## 🌍 Real-World Relevance
+## Real-World Relevance
 This project reflects common tasks for cloud and DevOps engineers:
 - **Infrastructure as Code (IaC):** allows teams to standardise and automate deployments  
 - **Networking:** VNets and subnets provide secure isolation  
@@ -32,14 +32,14 @@ This project reflects common tasks for cloud and DevOps engineers:
 - **Compute:** Virtual Machines are a core resource for applications and services  
 - **Outputs:** provide quick access to important details without using the portal  
 
-## ⚡ Features
+## Features
 - Full IaC deployment with Terraform  
 - Resource group, VNet, subnet and NSG created automatically  
 - Public IP and NIC assigned to a VM  
 - Ubuntu Linux VM provisioned with tags  
 - Outputs for VM name and public IP  
 
-## 🚀 Deployment Steps
+## Deployment Steps
 1. **Initialise project**
    ```bash
    terraform init
@@ -50,6 +50,6 @@ This project reflects common tasks for cloud and DevOps engineers:
    ```bash
    terraform apply
 
-## 📸 Deployment Proof
+## Deployment Proof
 Full step-by-step screenshots are available here:  
 [View Deployment Walkthrough](./screenshots/DEPLOYMENT.md)
