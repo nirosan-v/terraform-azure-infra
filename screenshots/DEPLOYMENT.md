@@ -55,5 +55,7 @@ Azure Activity Log confirms the creation of all resources through Terraform auto
 ---
 ## Summary
 This deployment demonstrated how Terraform can be used to provision core Azure infrastructure in minutes.  
+
 --> Key resources included: a resource group, VNet + subnet, NSG, public IP, NIC and a Linux VM.  
+
 Infrastructure as Code makes deployments repeatable, auditable and scalable compared to manual portal configuration.
