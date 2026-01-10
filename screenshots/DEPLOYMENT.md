@@ -53,7 +53,7 @@ Linux VM `tf-vm` is deployed (Ubuntu 20.04, size `Standard_B1s`) and tagged for 
 Azure Activity Log confirms the creation of all resources through Terraform automation.  
 ![Activity Log](./11-activity-log.png)
 ---
-## ✅ Summary
+## Summary
 This deployment demonstrated how Terraform can be used to provision core Azure infrastructure in minutes.  
 --> Key resources included: a resource group, VNet + subnet, NSG, public IP, NIC and a Linux VM.  
 Infrastructure as Code makes deployments repeatable, auditable and scalable compared to manual portal configuration.
